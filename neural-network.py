@@ -22,5 +22,21 @@ X = np.array([
     [130, 69]
 ])
 
-A0 = X.T
-print(A0.shape)
+A0 = X.T #transpose X
+
+y = np.array([
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+])
+m = 10
+
+Y = y.reshape(n[3], m)
+Y.shape
